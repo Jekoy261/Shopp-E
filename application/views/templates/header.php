@@ -45,7 +45,7 @@
    		<ul class="nav navbar-nav navbar-right">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" style="color: #ff6600;" href="<?php echo base_url() ?>login">
-            <img class="rounded-circle" style="border: 3px solid #000; height: 40px; width: 40px; margin-top: -15px; margin-bottom: -15px;" src="<?php echo base_url(); ?><?php echo $profile;?>">
+            <img class="rounded-circle" style="border: 3px solid #000; height: 40px; width: 40px; margin-top: -15px; margin-bottom: -15px;" src="<?php echo base_url(); ?><?php echo $profile; ?>">
             <?php echo ucfirst($this->session->userdata('username')); ?></a>
           <div class="dropdown-menu" aria-labelledby="themes">
             <a class="dropdown-item" href="<?php echo base_url(); ?>Login/view_profile"><span class="ni ni-circle-08"></span> My Profile </a>
