@@ -1,0 +1,14 @@
+.imglogo {
+      margin-left: 10px;
+      height: 43px;
+      width: 28px;
+    }
+.post-date{
+	background: #f4f4f4;
+	padding: 4px;
+	margin: 3px; 
+	display: block;
+}
+.post-thumb {
+	width: 100%;
+}
